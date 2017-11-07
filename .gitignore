@@ -4,3 +4,10 @@
 *.ptx
 *.cubin
 *.fatbin
+
+# Clion
+.idea/
+cmake-build-*/
+
+# build
+build/
