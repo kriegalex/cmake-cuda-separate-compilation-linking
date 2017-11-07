@@ -5,7 +5,7 @@ project(with-separate CXX CUDA)
 # all .cu .cuh files in lib dir
 file(GLOB LIB_CU_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/lib/*.cu)
 file(GLOB LIB_CU_HDRS ${CMAKE_CURRENT_SOURCE_DIR}/lib/*.cuh)
-# all .cu .cuh files in crt dir
+# main.cu in crt dir
 file(GLOB MAIN_CU_SRCS main.cu)
 # only for CLion (derps without a cpp file)
 file(GLOB DUMMY_SRCS dummy.cpp)
