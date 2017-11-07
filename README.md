@@ -9,7 +9,7 @@ cd cmake-cuda-scl
 mkdir build && cd build
 cmake -DCMAKE_CUDA_FLAGS="-arch=sm_60" ..
 make -j4
-cd bin/
+cd bin/ && ls -l
 ```
 
 Please change *-arch=sm_60* according to [your GPU compute capability][2].
