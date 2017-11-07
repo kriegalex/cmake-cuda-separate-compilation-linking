@@ -8,6 +8,8 @@ git clone https://github.com/kriegalex/cmake-cuda-separate-compilation-linking.g
 cd cmake-cuda-scl
 mkdir build && cd build
 cmake -DCMAKE_CUDA_FLAGS="-arch=sm_60" ..
+make -j4
+cd bin/
 ```
 
 Please change *-arch=sm_60* according to [your GPU compute capability][2].
